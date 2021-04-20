@@ -7,3 +7,12 @@
 /Users/l.nguyen/Projects/peew/peew/obj/Debug/netstandard2.1/peew.csproj.CoreCompileInputs.cache
 /Users/l.nguyen/Projects/peew/peew/obj/Debug/netstandard2.1/peew.dll
 /Users/l.nguyen/Projects/peew/peew/obj/Debug/netstandard2.1/peew.pdb
+/Users/l.nguyen/Projects/peew/bin/Debug/netstandard2.1/peew.deps.json
+/Users/l.nguyen/Projects/peew/bin/Debug/netstandard2.1/peew.dll
+/Users/l.nguyen/Projects/peew/bin/Debug/netstandard2.1/peew.pdb
+/Users/l.nguyen/Projects/peew/obj/Debug/netstandard2.1/peew.csprojAssemblyReference.cache
+/Users/l.nguyen/Projects/peew/obj/Debug/netstandard2.1/peew.AssemblyInfoInputs.cache
+/Users/l.nguyen/Projects/peew/obj/Debug/netstandard2.1/peew.AssemblyInfo.cs
+/Users/l.nguyen/Projects/peew/obj/Debug/netstandard2.1/peew.csproj.CoreCompileInputs.cache
+/Users/l.nguyen/Projects/peew/obj/Debug/netstandard2.1/peew.dll
+/Users/l.nguyen/Projects/peew/obj/Debug/netstandard2.1/peew.pdb

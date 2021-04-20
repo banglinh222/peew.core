@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/l.nguyen/Projects/peew/peew/peew.csproj": {}
+    "/Users/l.nguyen/Projects/peew/peew.csproj": {}
   },
   "projects": {
-    "/Users/l.nguyen/Projects/peew/peew/peew.csproj": {
+    "/Users/l.nguyen/Projects/peew/peew.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/l.nguyen/Projects/peew/peew/peew.csproj",
+        "projectUniqueName": "/Users/l.nguyen/Projects/peew/peew.csproj",
         "projectName": "peew",
-        "projectPath": "/Users/l.nguyen/Projects/peew/peew/peew.csproj",
+        "projectPath": "/Users/l.nguyen/Projects/peew/peew.csproj",
         "packagesPath": "/Users/l.nguyen/.nuget/packages/",
-        "outputPath": "/Users/l.nguyen/Projects/peew/peew/obj/",
+        "outputPath": "/Users/l.nguyen/Projects/peew/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/l.nguyen/.config/NuGet/NuGet.Config"
@@ -37,6 +37,16 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

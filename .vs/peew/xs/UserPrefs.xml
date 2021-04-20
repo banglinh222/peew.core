@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{82B6D54B-7462-4E03-9E74-AE71EF8C544E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../peew.mac/Main.cs">
+    <Files>
+      <File FileName="../peew.mac/Main.cs" Line="24" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="peew" expanded="True">
+            <Node name="peew" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="peew.mac" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.peew.mac PreferredExecutionTarget="Test1" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
