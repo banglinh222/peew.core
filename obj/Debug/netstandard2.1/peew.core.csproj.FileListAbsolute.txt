@@ -1,0 +1,9 @@
+C:\Users\condo\source\repos\peew.core\bin\Debug\netstandard2.1\peew.core.deps.json
+C:\Users\condo\source\repos\peew.core\bin\Debug\netstandard2.1\peew.core.dll
+C:\Users\condo\source\repos\peew.core\bin\Debug\netstandard2.1\peew.core.pdb
+C:\Users\condo\source\repos\peew.core\obj\Debug\netstandard2.1\peew.core.csprojAssemblyReference.cache
+C:\Users\condo\source\repos\peew.core\obj\Debug\netstandard2.1\peew.core.AssemblyInfoInputs.cache
+C:\Users\condo\source\repos\peew.core\obj\Debug\netstandard2.1\peew.core.AssemblyInfo.cs
+C:\Users\condo\source\repos\peew.core\obj\Debug\netstandard2.1\peew.core.csproj.CoreCompileInputs.cache
+C:\Users\condo\source\repos\peew.core\obj\Debug\netstandard2.1\peew.core.dll
+C:\Users\condo\source\repos\peew.core\obj\Debug\netstandard2.1\peew.core.pdb
