@@ -11,8 +11,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("peew.core")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("bllovesgnr")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Peew core library. Peew is a wonderful screenshot tool to increase your productiv" +
+    "iy. More at peew.me")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("peew.core")]

@@ -7,13 +7,13 @@
   "targets": {
     ".NETStandard,Version=v2.1": {},
     ".NETStandard,Version=v2.1/": {
-      "peew/1.0.0": {
+      "peew.core/1.1.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
-          "peew.dll": {}
+          "peew.core.dll": {}
         }
       },
       "Microsoft.CSharp/4.7.0": {
@@ -35,7 +35,7 @@
     }
   },
   "libraries": {
-    "peew/1.0.0": {
+    "peew.core/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

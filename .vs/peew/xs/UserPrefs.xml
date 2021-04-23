@@ -7,13 +7,9 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="peew" expanded="True">
-            <Node name="peew" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="FrameworkReferences" expanded="True" />
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
+            <Node name="peew.mac" expanded="True">
+              <Node name="Main.cs" selected="True" />
             </Node>
-            <Node name="peew.mac" expanded="True" />
           </Node>
         </State>
       </Pad>

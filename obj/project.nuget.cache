@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bxhgmr06FzRoYsoCVxwQW7dzaVjJuyaBKOwZOKJJ7eLqm/DVwqrk18Ts1GjjJqU9uAheS6+xl9bfVEd4bidjbg==",
+  "dgSpecHash": "bJtIKKV6QZtaClFTc96Hm6IoxM6yfEStpUZzsgTrZkZt/DMuN+zhI78uHtotsjL7zVhh6Ku+HpL7UXU+hu5bZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\condo\\source\\repos\\peew.core\\peew.core.csproj",
+  "projectFilePath": "/Users/l.nguyen/Projects/peew.core/peew.core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\condo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\condo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "/Users/l.nguyen/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/l.nguyen/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,0 +1,9 @@
+/Users/l.nguyen/Projects/peew.core/bin/Release/netstandard2.1/peew.core.deps.json
+/Users/l.nguyen/Projects/peew.core/bin/Release/netstandard2.1/peew.core.dll
+/Users/l.nguyen/Projects/peew.core/bin/Release/netstandard2.1/peew.core.pdb
+/Users/l.nguyen/Projects/peew.core/obj/Release/netstandard2.1/peew.core.AssemblyInfoInputs.cache
+/Users/l.nguyen/Projects/peew.core/obj/Release/netstandard2.1/peew.core.AssemblyInfo.cs
+/Users/l.nguyen/Projects/peew.core/obj/Release/netstandard2.1/peew.core.csproj.CoreCompileInputs.cache
+/Users/l.nguyen/Projects/peew.core/obj/Release/netstandard2.1/peew.core.dll
+/Users/l.nguyen/Projects/peew.core/obj/Release/netstandard2.1/peew.core.pdb
+/Users/l.nguyen/Projects/peew.core/obj/Release/netstandard2.1/peew.core.csprojAssemblyReference.cache
