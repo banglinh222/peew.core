@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using System.IO;
+using System.Runtime.InteropServices;
 
 namespace peew.core
 {
@@ -25,10 +26,8 @@ namespace peew.core
             return json.machineId;
         }
 
-        public void upload(string filePath, string machineId)
+        public void upload(string filePath, string fileName, string machineId)
         {
-            var fileName = filePath.Split('/').Last();
-            Debug.WriteLine(fileName);
             var data = new Dictionary<string, string>
             {
                 { "fileName", fileName },
@@ -38,8 +37,12 @@ namespace peew.core
             string url = postPolicy.url;
             Dictionary<string, string> fields = postPolicy.fields.ToObject<Dictionary<string, string>>();
             var result = post(url, fields, filePath);
+            System.GC.Collect();
+            System.GC.WaitForPendingFinalizers();
             File.Delete(filePath);
-            Process.Start($"{BaseUrl}/{fileName}?machineId={machineId}");
+            Debug.WriteLine(filePath);
+            Debug.WriteLine(fileName);
+            OpenUrl($"{BaseUrl}/{fileName}?machineId={machineId}");
         }
 
         public dynamic post(string url, Dictionary<string, string> data = null)
@@ -88,6 +91,32 @@ namespace peew.core
             }
         }
 
-
+        private void OpenUrl(string url)
+        {
+            try
+            {
+                Process.Start(url);
+            }
+            catch
+            {
+                if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+                {
+                    url = url.Replace("&", "^&");
+                    Process.Start(new ProcessStartInfo("cmd", $"/c start {url}") { CreateNoWindow = true });
+                }
+                else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
+                {
+                    Process.Start("xdg-open", url);
+                }
+                else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
+                {
+                    Process.Start("open", url);
+                }
+                else
+                {
+                    throw;
+                }
+            }
+        }
     }
 }

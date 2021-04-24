@@ -1,26 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/Users/l.nguyen/Projects/peew.core/peew.core.csproj": {}
+    "C:\\Users\\condo\\source\\repos\\peew.core\\peew.core.csproj": {}
   },
   "projects": {
-    "/Users/l.nguyen/Projects/peew.core/peew.core.csproj": {
+    "C:\\Users\\condo\\source\\repos\\peew.core\\peew.core.csproj": {
       "version": "1.1.0",
       "restore": {
-        "projectUniqueName": "/Users/l.nguyen/Projects/peew.core/peew.core.csproj",
+        "projectUniqueName": "C:\\Users\\condo\\source\\repos\\peew.core\\peew.core.csproj",
         "projectName": "Peew.core",
-        "projectPath": "/Users/l.nguyen/Projects/peew.core/peew.core.csproj",
-        "packagesPath": "/Users/l.nguyen/.nuget/packages/",
-        "outputPath": "/Users/l.nguyen/Projects/peew.core/obj/",
+        "projectPath": "C:\\Users\\condo\\source\\repos\\peew.core\\peew.core.csproj",
+        "packagesPath": "C:\\Users\\condo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\condo\\source\\repos\\peew.core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/l.nguyen/.config/NuGet/NuGet.Config"
+          "C:\\Users\\condo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "/Users/l.nguyen/Projects/peew.core/bin/Debug": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
