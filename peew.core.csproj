@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <PackageId>Peew.core</PackageId>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
     <Authors>bllovesgnr</Authors>
     <Company>bllovesgnr</Company>
     <Description>Peew core library. Peew is a wonderful screenshot tool to increase your productiviy. More at peew.me</Description>
